@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Importância e Conservação | Mamíferos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Introdução</a>
+        <a href="import.html">Importância e Conservação</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+
+    <!--CABEÇALHO-->
+
+    <header>
+
+        <h1>Importância e Conservação</h1>
+        <p>Entendendo a importância dos mamíferos na Biosfera e a sua necessidade de conservação</p>
+
+    </header>
+
+    <main>
+
+        <!-- IMPORTÂNCIA DOS MAMÍFEROS -->
+        <section class="importancia">
+        <h2>
+            Importância dos Mamíferos
+        </h2>
+
+        <p>
+            Os mamíferos são importantes para o equilíbrio dos ecossistemas.
+            Eles ajudam em diversas áreas, como:
+        </p>
+
+        <div class="blocos-importancia">
+            <button class="bloco-importancia" onclick="mostrarConteudo('dispersao')">
+                <span>Dispersão de Sementes</span>
+            </button>
+
+            <button class="bloco-importancia" onclick="mostrarConteudo('controle')">
+                <span>Controle de Populações</span>
+            </button>
+            
+            <button class="bloco-importancia" onclick="mostrarConteudo('polinizacao')">
+                <span>Polinização</span>
+            </button>
+
+            <button class="bloco-importancia" onclick="mostrarConteudo('modificacao')">
+                <span>Modificação do Ambiente</span>
+            </button>
+
+            <button class="bloco-importancia" onclick="mostrarConteudo('ciclagem')">
+                <span>Ciclagem de Nutrientes</span>
+            </button>
+
+        </div>
+
+        <!-- CONTEÚDO BOTÕES -->
+            <div id="dispersao" class="conteudo" style="display: none;">
+
+                <h3>Dispersão de Sementes</h3>
+
+                <p>
+                    Os mamíferos frugívoros, que se alimentam de frutos, desempenham um papel
+                    importante na regeneração das florestas. Ao ingerirem frutos, esses animais
+                    podem transportar as sementes para outros locais, seja por meio do deslocamento
+                    ou da eliminação nas fezes. Esse processo, chamado de dispersão de sementes,
+                    contribui para a colonização de novas áreas, a manutenção da diversidade vegetal
+                    e a recuperação de ambientes degradados.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A redução de mamíferos dispersores pode comprometer a regeneração florestal,
+                pois diminui a chegada de sementes a novos locais. Esse fenômeno demonstra
+                a interdependência entre animais e plantas e a importância das interações
+                ecológicas para a manutenção da biodiversidade.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/dispersao.png" alt="Imagem de um pássaro dispersor de sementes">
+
+            </div>
+
+            <div id="controle" class="conteudo" style="display: none;">
+
+                <h3>Controle de Populações</h3>
+
+                <p>
+                    Os mamíferos participam da regulação das populações de outros organismos
+                    por meio das relações alimentares. Predadores, como a onça-pintada,
+                    contribuem para controlar as populações de suas presas, enquanto herbívoros
+                    influenciam a vegetação ao consumir folhas, frutos e outras partes das plantas.
+                    Essas interações ajudam a manter o equilíbrio dinâmico dos ecossistemas e
+                    influenciam a distribuição e a abundância das espécies.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A diminuição de um predador pode provocar o aumento de suas presas e alterar outros
+                níveis da cadeia alimentar. Essas consequências podem se propagar pelo ecossistema,
+                caracterizando uma cascata trófica. Entretanto, os efeitos dependem das espécies
+                envolvidas e das características do ambiente.
+                </p>
+
+            </div>
+
+            <div id="polinizacao" class="conteudo" style="display: none;">
+
+                <h3>Polinização</h3>
+
+                <p>
+                    Embora seja frequentemente associada aos insetos, a polinização também pode
+                    ser realizada por determinados mamíferos. Alguns morcegos, por exemplo,
+                    alimentam-se do néctar das flores e transportam grãos de pólen entre elas.
+                    Essa transferência favorece a fecundação das plantas e, em espécies vegetais
+                    que dependem desse processo, contribui para a formação de frutos e sementes,
+                    além de auxiliar na manutenção da diversidade vegetal.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A polinização é um exemplo de interação ecológica que pode beneficiar tanto a planta
+                quanto o animal: a planta tem seu processo reprodutivo favorecido, enquanto o mamífero
+                obtém alimento. Essa relação pode ser classificada como mutualismo quando ambas as
+                espécies se beneficiam, especialmente em associações de dependência recíproca.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/polinizacao.png" alt="Imagem de uma abelha polinizando">
+
+            </div>
+
+            <div id="modificacao" class="conteudo" style="display: none;">
+
+                <h3>Modificação do Ambiente</h3>
+
+                <p>
+                    Alguns mamíferos modificam fisicamente os ambientes em que vivem. Tatus e
+                    outros animais escavadores, por exemplo, constroem tocas que alteram a
+                    estrutura do solo e podem servir de abrigo para diferentes organismos.
+                    Essas escavações também podem favorecer a infiltração de água e a movimentação
+                    de nutrientes. Além disso, os resíduos e a decomposição dos organismos
+                    contribuem para a ciclagem de nutrientes, processo essencial à manutenção da
+                    fertilidade do solo e da produtividade dos ecossistemas.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                As alterações provocadas pelos organismos no ambiente demonstram que os seres vivos
+                não apenas dependem dos ecossistemas, mas também contribuem para modificá-los.
+                Questões podem relacionar essas atividades à estrutura do solo, à disponibilidade
+                de recursos e à criação de habitats para outras espécies.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/modificacao.png" alt="Imagem de um tatu cavando">
+
+            </div>
+
+            <div id="ciclagem" class="conteudo" style="display: none;">
+
+                <h3>Ciclagem de Nutrientes</h3>
+
+                <p>
+                    Os mamíferos contribuem para a ciclagem de nutrientes ao participar da
+                    decomposição indireta da matéria orgânica, da dispersão de sementes e da
+                    transferência de nutrientes entre diferentes ambientes. Por meio das fezes
+                    e da urina, eles devolvem nutrientes ao solo, onde podem ser reutilizados
+                    pelas plantas e por outros organismos. Além disso, ao se alimentarem e se
+                    deslocarem, podem transportar nutrientes de uma região para outra, contribuindo
+                    para o funcionamento dos ecossistemas.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A ciclagem de nutrientes permite a reutilização da matéria nos ecossistemas e
+                contribui para a manutenção da fertilidade do solo e do equilíbrio ecológico.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- COMPORTAMENTO -->
+        <section id="comportamento">
+
+        <h2>
+            Como o comportamento dos mamíferos afeta o meio ambiente?
+        </h2>
+
+            <p>
+                Os mamíferos apresentam diferentes comportamentos. Alguns
+                vivem em grupos, como os macacos e os elefantes, enquanto
+                outros preferem viver sozinhos, como algumas onças. Eles
+                se comunicam por sons, cheiros, gestos e movimentos corporais.
+                Muitos caçam para conseguir alimento e cuidam dos filhotes,
+                protegendo-os e alimentando-os até que consigam sobreviver
+                sozinhos.
+            </p>
+
+            <p>
+                O comportamento dos mamíferos influencia diretamente a
+                dinâmica dos ecossistemas, pois seus hábitos alimentares,
+                deslocamentos e interações com outros organismos podem
+                modificar o ambiente. Mamíferos herbívoros, por exemplo,
+                consomem partes das plantas e podem interferir no crescimento
+                da vegetação, enquanto os carnívoros contribuem para a
+                regulação das populações de suas presas. Já os animais
+                onívoros participam de diferentes relações alimentares,
+                ocupando posições variadas nas cadeias e teias alimentares.
+            </p>
+
+            <p>
+                Além disso, o deslocamento dos mamíferos favorece a dispersão
+                de sementes, e a escavação de tocas pode alterar o solo e criar
+                abrigos para outras espécies. As relações sociais, a
+                territorialidade e a competição também influenciam a distribuição
+                dos indivíduos e o acesso aos recursos naturais. Dessa forma,
+                mudanças no comportamento ou na abundância desses animais podem
+                desencadear efeitos sobre outras populações e comprometer o
+                equilíbrio ecológico.
+            </p>
+
+            <p>
+                <strong>Atenção para o ENEM:</strong>
+                É importante compreender que:
+            </p>
+
+            <ul>
+                <li>
+                    Hábitos alimentares: a alteração na abundância de predadores ou herbívoros pode modificar as populações de outros organismos e a vegetação.
+                </li>
+                <li>
+                    Deslocamento: a migração e a dispersão de sementes conectam diferentes áreas e contribuem para processos ecológicos.
+                </li>
+                <li>
+                    Competição: espécies que utilizam recursos semelhantes podem competir por alimento, espaço e abrigo.
+                </li>
+                <li>
+                    Alteração ambiental: a construção de tocas e outras atividades podem modificar o solo e criar condições para outros organismos.
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- CONSERVAÇÃO -->
+        <section id="conservacao">
+
+        <h2>
+            Conservação dos Mamíferos
+        </h2>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Aquecimento Global e Ursos Polares
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    O aumento da temperatura média global contribui para o derretimento
+                    do gelo marinho do Ártico, reduzindo o habitat utilizado pelos ursos-
+                    polares para caçar focas. Com menor acesso ao alimento, esses animais
+                    podem enfrentar períodos mais longos de jejum e redução de sua
+                    sobrevivência e reprodução.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A questão pode relacionar a emissão de gases de efeito estufa à perda de
+                habitat e às alterações nas relações alimentares.
+                </p>
+                
+                <img class="imagem-acordeao" src="imagens/ursopolar.png" alt="Imagem de um urso polar deslocado de seu habitat">
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Desmatamento e fragmentação de habitats
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    A remoção da vegetação e a divisão de uma floresta em fragmentos
+                    isolados reduzem os espaços disponíveis para alimentação, abrigo
+                    e reprodução. Populações pequenas e isoladas ficam mais vulneráveis
+                    a eventos ambientais, à endogamia e à perda de diversidade genética.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                Atenção à diferença entre perda de habitat e fragmentação: esta última
+                também dificulta o deslocamento e o fluxo gênico entre populações.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/desmatamento.png" alt="Imagem de desmatamento">
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Desaparecimento de predadores
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    Quando grandes predadores diminuem, algumas populações de presas podem
+                    aumentar e intensificar o consumo de determinados recursos. Isso pode
+                    afetar a vegetação e outros organismos, provocando efeitos em diferentes
+                    níveis da teia alimentar.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                O conceito central é a cascata trófica: uma alteração no nível dos predadores
+                pode repercutir em outros níveis da cadeia alimentar.
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Mamíferos frugívoros e regeneração florestal
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    Antas, primatas e outros mamíferos que consomem frutos podem
+                    transportar sementes para longe da planta-mãe. A redução desses
+                    animais pode limitar a dispersão de certas espécies vegetais e
+                    modificar a composição e a regeneração da floresta.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A extinção local de um animal pode afetar plantas e outros organismos,
+                demonstrando a interdependência entre as espécies.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/frugivoro.png" alt="Imagem de uma animal frugívoro">
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Rodovias e atropelamento de animais
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    Rodovias atravessando ambientes naturais podem causar mortalidade por
+                    atropelamento e dificultar o deslocamento de mamíferos. A separação de
+                    populações pode reduzir o fluxo gênico e aumentar o isolamento,
+                    especialmente quando existem poucas rotas alternativas.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                Passagens de fauna, cercas direcionadoras e planejamento territorial
+                podem reduzir impactos, desde que sejam adequados às espécies presentes.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/atropelado.png" alt="Imagem de um tamanduá atropelado">
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Caça e tráfico de animais silvestres
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    A retirada de indivíduos da natureza pode diminuir populações e comprometer a
+                    reprodução. Quando espécies que dispersam sementes ou controlam outras populações
+                    se tornam raras, os efeitos podem ultrapassar a própria espécie explorada.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                A conservação envolve fiscalização, combate ao comércio ilegal, proteção de habitats
+                e ações de educação ambiental.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/trafico.png" alt="Imagem de pássaros sendo traficados">
+
+            </div>
+
+        </article>
+
+        <article class="acordeao">
+
+            <button class="titulo-acordeao">
+                Poluição e mamíferos aquáticos
+                <span>+</span>
+            </button>
+
+            <div class="conteudo-acordeao">
+
+                <p>
+                    Resíduos, substâncias tóxicas e poluentes lançados nos ambientes aquáticos
+                    podem afetar golfinhos, botos e outros mamíferos. Algumas substâncias
+                    persistentes acumulam-se nos organismos e podem atingir concentrações
+                    maiores nos níveis tróficos mais elevados.
+                </p>
+
+                <p>
+                <strong>Atenção para o ENEM:</strong>
+                Diferencie bioacumulação, que ocorre no organismo ao longo do tempo,
+                de biomagnificação, que corresponde ao aumento da concentração de certos
+                contaminantes ao longo da cadeia alimentar.
+                </p>
+
+                <img class="imagem-acordeao" src="imagens/foca.png" alt="Imagem de uma foca vítima da poluição marítima">
+
+            </div>
+
+        </article>
+        </section>
+
+        <!-- DIVERSIDADE -->
+        <section id="diversidade">
+
+        <h2>
+            Diversidade dos Mamíferos
+        </h2>
+
+            <p>
+                O Brasil abriga uma grande diversidade de mamíferos, distribuídos por
+                biomas como Amazônia, Cerrado, Caatinga, Mata Atlântica, Pantanal e Pampa.
+                Entre as espécies brasileiras estão a onça-pintada, importante predadora;
+                a anta, que contribui para a dispersão de sementes; o lobo-guará, característico
+                do Cerrado; o mico-leão-dourado, associado à Mata Atlântica; o tamanduá-bandeira,
+                que se alimenta principalmente de formigas e cupins; e o boto-cor-de-rosa,
+                encontrado na Amazônia.
+            </p>
+
+            <p>
+                Apesar dessa diversidade, muitos mamíferos sofrem ameaças como desmatamento,
+                queimadas, caça ilegal, tráfico de animais e fragmentação de habitats. Esses
+                problemas reduzem as populações e comprometem a sobrevivência de diversas
+                espécies. Para protegê-las, é fundamental preservar e recuperar os ambientes
+                naturais, criar unidades de conservação, combater atividades ilegais e promover
+                a educação ambiental, contribuindo para a manutenção da biodiversidade e do
+                equilíbrio dos ecossistemas.
+            </p>
+
+            <p>
+                <strong>Atenção para o ENEM:</strong>
+                O desmatamento e a fragmentação de habitats ameaçam os mamíferos, reduzindo
+                suas populações e aumentando o risco de extinção. A conservação dessas espécies
+                depende da proteção dos ambientes naturais, da criação de áreas protegidas e da
+                manutenção do equilíbrio ecológico.
+            </p>
+
+        </section>
+    </main>
+
+<footer>
+        <p>Projeto de Biologia</p>
+        <p>Colégio São Luiz  - alunos do 3º ano do Ensino Médio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
